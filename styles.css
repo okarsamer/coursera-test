@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 175%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section {
+  float: left;
+  width: 100%;
+  position: relative;
+  background-color: #e0e0e0;
+  border: 1px solid black;
+  padding: 50px 10px 10px 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ccc;
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 125%;
+}
+
+@media (min-width: 992px) {
+  .section {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+    width: 50%;
+  }
+  .section#sushi {
+    width: 100%;
+    clear: both;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    width: 100%;
+  }
+}
