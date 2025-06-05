@@ -1,4 +1,3 @@
-// STEP 5: Wrap in IIFE
 (function (window) {
 
   // STEP 6: Create byeSpeaker object
