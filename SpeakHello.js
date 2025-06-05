@@ -1,4 +1,3 @@
-// STEP 1: Wrap in IIFE
 (function (window) {
 
   // STEP 2: Create helloSpeaker object
