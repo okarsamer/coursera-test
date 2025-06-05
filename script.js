@@ -1,4 +1,3 @@
-// STEP 9: Wrap in IIFE
 (function () {
 
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
